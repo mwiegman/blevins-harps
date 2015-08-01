@@ -1,0 +1,593 @@
+/********************* 
+Google font
+**********************/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/********************* 
+Body styling
+**********************/
+body {
+    font-family: Georgia, serif;    
+    font-size: 1.125rem;
+    line-height: 1.5;    
+    background-color: #E1E3CB;
+    margin: 20px;     
+}
+
+h1, 
+h2,
+h3 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #47191C;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+/********************* 
+Header styling
+**********************/
+header {
+  background-color: #B5B09A;    
+  text-align: center;
+  -webkit-box-shadow: 0px -10px 10px -10px black; 
+       -moz-box-shadow: 0px -10px 10px -10px black;
+            box-shadow: 0px -10px 10px -10px black;
+  margin-bottom: 40px;
+  padding-top: 10px;
+}
+
+header img {
+  height: 100%;
+  width: 178px !important;
+  padding-top: 20px;
+}
+
+.headcol3 h2 {
+  color: black; 
+}
+
+/********************* 
+Nav styling
+**********************/
+nav {  
+  background-color: #B5B09A; 
+}
+
+nav ul {  
+  list-style-type: none; 
+}
+
+nav li {
+  text-align: center;
+  display: inline-block;    
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;  
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+nav a {
+  display: inline-block;
+  background-color: #59574B; 
+  padding: 10px 5px 5px 5px;
+  /*-webkit-box-shadow: 2px -5px 10px -1px black; 
+       -moz-box-shadow: 2px -5px 10px -1px black;
+            box-shadow: 2px -5px 10px -1px black; */
+}
+
+nav li a:hover {
+  color: #E1E3CB;
+  text-decoration: none;
+  background-color: #47191C;
+}
+
+#home,
+#about,
+#contact,
+#order,
+#harps,
+#resources,
+#reviews {
+  color: #47191C;
+  text-decoration: none;
+  background-color: #E1E3CB;
+}
+
+/********************* 
+Footer styling
+**********************/
+footer {
+  background-color: #B5B09A;
+  padding: 20px;
+    -webkit-box-shadow: 0px 4px 20px -2px black; 
+       -moz-box-shadow: 0px 4px 20px -2px black;
+            box-shadow: 0px 4px 20px -2px black; 
+}    
+
+footer h3 {
+  color: black;
+  padding-bottom: 10px;
+}
+footer ul {
+  list-style-type: none;  
+}
+
+footer p {
+  text-align: center;
+  padding: 5px;
+}
+
+.copyright{
+  font-size: .6em;  
+}
+
+.footcol1 {
+  padding-left: 40px;
+}
+
+.footcol1 h3 {
+  text-decoration: underline;
+}
+
+.footcol2 {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.footcol3 {
+  padding-right: 40px;
+}
+
+
+/********************* 
+Primary content styling
+**********************/
+main {
+  background-color: #829690; 
+  margin: 40px 10px;
+}
+
+section {
+  background-color: #829690; 
+  margin: 0 20px 40px 20px;
+  padding: 20px;
+   -webkit-box-shadow: 0px 4px 20px -2px black; 
+       -moz-box-shadow: 0px 4px 20px -2px black;
+            box-shadow: 0px 4px 20px -2px black;
+}
+
+.welcome {
+  padding: 0 20px;
+  height: 100%;
+}
+
+.welcome h3 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+section p,
+main p {
+  padding: 10px 10px 10px 30px;  
+}
+
+.address {
+  margin-top: 20px;  
+}
+
+.confirm {
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.confirm p {
+  padding: 20px;
+}
+
+.resources {
+  margin: 0 20px 0 60px;
+}
+
+.resources ul {
+  margin-left: 60px;
+  margin-top: 20px;
+  list-style-type: circle;
+}
+
+.resources li {
+  margin: 10px;
+}
+
+.resources h2 {
+  margin-top: 40px;
+}
+
+.reviews {
+  margin: 20px;
+}
+
+.reviews p {
+  margin: 0 20px 20px 20px;
+}
+
+.reviews img {
+  margin-bottom: 100px;
+}
+
+.push {
+  height: 100px;
+}
+/********************* 
+Photo Gallery styling
+**********************/
+.fotorama {
+  background-color: #E1E3CB; 
+}
+
+.fotorama__wrap {
+    margin: 0 auto;
+    padding: 40px;    
+}
+
+
+/********************* 
+Product image styling
+**********************/
+
+.harp img,
+.floorharp img,
+.lapharp img {
+  background-color: #59574B;
+  padding: 10px;
+  margin: 20px auto;
+  -webkit-box-shadow: 0px 4px 20px -2px black; 
+  -moz-box-shadow: 0px 4px 20px -2px black;
+  box-shadow: 0px 4px 20px -2px black;
+  display: block;  
+}
+
+.harp h1 {
+  margin-bottom: 0;
+}
+
+.harp h2 {
+  text-align: center;
+}
+
+.title {
+  margin: 20px 100px;
+  text-align: center;
+  border: 1px solid #47191C;
+}
+
+.harp a img:hover {
+  background-color: #E1E3CB;
+}
+
+/********************* 
+Form styling
+**********************/
+
+form {
+  background-color: #59574B;
+  padding: 10px;
+  line-height: 2em;
+  color: #E1E3CB;
+}
+
+form .button {
+  display: inline;
+  float: right;
+  font-weight: bold;
+}
+
+form h3 {
+  color: #E1E3CB;
+}
+
+form:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+textarea {
+  width: 100%;
+}
+
+hr {
+  border-color: #E1E3CB;
+}
+
+
+/********************* 
+Table styling
+**********************/
+table,
+tr,
+td,
+th {
+  border: 2px solid #47191C;
+}
+
+table{
+  margin: 20px;  
+}
+
+td,
+th {
+  padding: 10px;
+}
+
+
+/********************* 
+Video styling
+**********************/
+video {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+}
+
+.video {
+  margin-bottom: 40px;
+}
+
+
+/********************* 
+Link styling
+**********************/
+
+a {
+  color: #47191C;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/********************* 
+Button styling
+**********************/
+.button {
+  color: #E1E3CB;
+  background-color: #47191C;  
+  border: 1px solid #47191C;
+  border-radius: 10px;
+  display: inline-block;
+  text-align: center;
+  width: 40%;
+  margin: 20px auto;
+  padding: 5px; 
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.5rem;  
+}
+
+.back {
+  width: 15%;
+}
+
+form .button {
+  width: 30%;
+}
+
+.about-button {
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #E1E3CB;
+  border: 1px solid #47191C;
+  color: #47191C; 
+  text-decoration: none;
+}
+
+
+/********************* 
+Flexbox
+**********************/
+@media (min-width: 1024px) {
+
+  .flexbox,
+  .mainflexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+  }
+
+  .col {
+    flex: 1;
+  }
+
+  .headcol1 {
+    flex: 1;
+    order: 1;    
+  }
+
+  .headcol2 {
+    flex: 3;
+    order: 2;
+    align-self: flex-end;    
+  }
+
+  .headcol3 {
+    flex: 1;  
+    order: 3;           
+  }
+
+  .maincol1 {
+    flex: 1;
+    order: 1;  
+  }
+
+  .maincol2 {
+    flex: 3;
+    order: 2;    
+  }
+
+  .maincol3 {
+    flex: 1;  
+    order: 3;   
+  }
+
+  .navflexbox {
+    display: flex;   
+  }
+
+  .navflexbox a {
+    flex: 2;
+  }
+
+  .navcol   {  
+    flex: 2;  
+  }
+
+  .footcol1 {
+    flex: 1;
+    align-self: center;
+  }
+
+  .footcol2 {
+    flex: 2;
+    align-self: flex-end;
+  }
+
+  .footcol3,
+  .vertical {
+    align-self: center;
+    flex: 1;
+  }
+
+  .start {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1023px){
+
+.flexbox {
+  display:flex;
+  flex-direction: row;
+}
+
+.mainflexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+  }
+
+.flexboxcenter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+  .col {
+    flex: 1;
+  }
+
+  .headcol1 {
+    flex: 1;
+    order: 1;    
+  }
+
+  .headcol2 {
+    flex: 3;
+    order: 2;
+    align-self: flex-end;    
+  }
+
+  .headcol3 {
+    flex: 1;  
+    order: 3;           
+  }
+
+  .navflexbox {
+    display: flex;   
+  }
+
+  .navflexbox a {
+    flex: 2;
+  }
+
+  .navcol   {  
+    flex: 2;  
+  }
+
+  .footcol1 {
+    flex: 1;
+    align-self: center;
+  }
+
+  .footcol2 {
+    flex: 2;
+    align-self: flex-end;
+  }
+
+  .footcol3 {
+    flex: 1;
+    align-self: center;
+  }
+
+}
+/********************* 
+Smaller screen styling
+**********************/
+@media (min-width: 1px) and (max-width: 799px)  {
+  
+  header {
+    width: 100%;    
+  }
+
+  nav ul {
+    margin: 0 auto;        
+  }
+
+  nav li {
+    display: inline-block;
+    width: 45%;
+    background-color: #59574B;
+    padding: 10px;    
+    border-radius: 10px;
+    margin: 5px;
+  }
+
+  .headcol1,
+  .headcol3 {
+    text-align: center;
+    padding: 10px;
+  }  
+
+  header img {
+    width: 178px;
+    height: 100px;    
+  }
+
+  .about-button {
+    width: 100%;
+  }
+
+#home,
+#about,
+#contact,
+#order,
+#harps,
+#resources {
+  color: #47191C;
+  text-decoration: none;
+  background-color: #59574B;
+}
+}

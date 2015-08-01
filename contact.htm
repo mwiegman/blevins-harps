@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Blevins Harps contact page" />    
+  <meta name="author" content="Meredith Wiegman" />
+  <meta name="robots" content="index" />
+  <meta name="DCTERMS.rightsHolder" content="Blevins Harps" />
+  <title>Blevins Harps | Contact Us</title>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" /> 
+  <!--  Link to jQuery  -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <!-- 33 KB -->
+  <!-- fotorama.css & fotorama.js. -->
+  <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->  
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+  <header class="flexbox">
+    <div class="headcol1">
+    <a href="index.htm"><img src="images/logo.gif" width="178" height="100" alt="Blevins Harps Logo" /></a>
+    </div>       
+    <nav class="headcol2">
+      <ul class="flexbox"> 
+        <li class="navcol navflexbox"><a  href="index.htm">Home</a></li>       
+        <li class="navcol navflexbox"><a href="about.htm">About</a></li>
+        <li class="navcol navflexbox"><a id="contact" href="contact.htm">Contact</a></li>
+        <li class="navcol navflexbox"><a href="order.htm">How To Order</a></li>
+        <li class="navcol navflexbox"><a href="harps.htm">Our Harps</a></li>
+        <li class="navcol navflexbox"><a href="resources.htm">Learning Resources</a></li>
+        <li class="navcol navflexbox"><a href="reviews.htm">Customer Reviews</a></li>        
+      </ul>
+    </nav>
+    <div class="headcol3" >      
+    <h2>Ready to order?</h2> <h3>Give us a call today at </h3><a href="tel:555-555-555">555-567-5309</a><br /> 
+      <a href="contact.htm" class="button">Contact Us</a>      
+    </div>
+   </header> 
+   <div class="flexbox">
+    <div class="maincol1"></div>
+    <div class="maincol2"><img src="images/map.jpg" width="600" height="400" alt="map" title="map" class="map"/>
+    <h1>CONTACT</h1></div>
+    <div class="maincol3"></div>
+   </div>
+    <div class="flexbox">
+      <div class="maincol1"></div>
+        <section class="maincol2 flexbox">
+          <div class="col">
+            <h2>Contact Us</h2>
+            <div class="address">
+              <h3>Address:</h3>
+                <p>123 Main Street<br />Boulder, CO</p>
+                <h3>Phone:</h3>
+                <p>555-867-5309</p>
+                <h3>We're here to help.</h3>
+                <p>Our customer service is second to none. Our goal is to help you can make the best possible decision regarding your harp purchase. </p>
+                <p>Contact us to arrange a no obligation telephone consult today!</p>
+            </div> 
+          </div>
+          <div class="col">          
+          <form id="comment_form" method="post" action="form_script.php">
+          <h3>Send us a note!</h3>
+          <hr>
+          <input type="hidden" id="recipient" name="recipient" value="meredith.wiegman@gmail.com" />
+          <input type="hidden" id="redirect" name="redirect" value="confirmation.htm" />
+          <input type="hidden" id="subject" name="subject" value="Blevins Harps comment form" />
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Your name" class="required" /><br />
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" placeholder="Your e-mail address" class="required" /><br />
+          <label for="phone">Phone:</label>
+          <input type="phone" id="phone" name="phone" placeholder="Your phone number" class="required" /><br />
+          <label for="comment">Comments:</label><br />
+          <textarea id="comment" name="comment" cols="10" rows="5" placeholder="Add your comments here." class="required"></textarea><br />
+          <hr>
+          Would you like our newsletter?<br />        
+          <input type="checkbox" id="newsletter" name="newsletter" value="yes" /> Send Newsletter <br />
+          <input class="button" type="submit" value="SEND" />
+        </form>
+      </section>
+      <div class="maincol3"></div>  
+    </div>
+  <footer class="flexbox">
+    <div class="footcol1">
+      <h3>Site Links</h3>
+    <ul>
+        <li><a href="index.htm">Home</a></li>
+        <li><a href="about.htm">About</a></li>
+        <li><a href="contact.htm">Contact</a></li>
+        <li><a href="order.htm">How To Order</a></li>
+        <li><a href="harps.htm">Our Harps</a></li>
+        <li><a href="resources.htm">Learning Resources</a></li>
+        <li><a href="reviews.htm">Customer Reviews</a
+      </ul>
+    </div>
+    <div class="footcol2 copyright">
+      <p><a href="http://validator.w3.org/check/referer"><img src="http://www.netwebdev.net/webclass/images/valid-html5.png" alt="Valid HTML5!" height="15" width="80" /></a></p>            
+      <p>Copyright &copy; 2015 Blevins Harps</p>
+      <p>This page last modified August 1, 2015</p>
+    </div>
+    <div class="footcol3">
+      <p>Questions or Comments?<br />Send an email to <a href="mailto:blevins@harps.com">blevins@harps.com</a></p>      
+    </div>   
+  </footer>
+</body>
+</html>
