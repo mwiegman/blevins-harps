@@ -10,15 +10,11 @@
   <title>Blevins Harps | Our Harps</title>
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-  <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/style.css" /> 
-  <!--  Link to jQuery  -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <!-- fotorama.js. -->   
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>  
+  <link rel="stylesheet" type="text/css" href="css/normalize.min.css" /> 
+  <link rel="stylesheet" type="text/css" href="css/style.css" />  
 </head>
 <body>
+  <a id="skip" href="#main">Skip to Content</a>
   <header class="flexbox">
     <div class="headcol1">
     <a href="index.htm"><img src="images/logo.gif" width="178" height="100" alt="Blevins Harps Logo" /></a>
@@ -29,7 +25,7 @@
         <li class="navcol navflexbox"><a href="about.htm">About</a></li>
         <li class="navcol navflexbox"><a href="contact.htm">Contact</a></li>
         <li class="navcol navflexbox"><a href="order.htm">How To Order</a></li>
-        <li class="navcol navflexbox"><a id="harps"href="harps.htm">Our Harps</a></li>
+        <li class="navcol navflexbox"><a id="harps" href="harps.htm">Our Harps</a></li>
         <li class="navcol navflexbox"><a href="resources.htm">Learning Resources</a></li>
         <li class="navcol navflexbox"><a href="reviews.htm">Customer Reviews</a></li>        
       </ul>
@@ -37,29 +33,44 @@
     <div class="headcol3" >      
     <h2>Ready to order?</h2> <h3>Give us a call today at </h3><a href="tel:555-555-555">555-567-5309</a><br /> 
       <a href="contact.htm" class="button">Contact Us</a>      
-    </div>
+    </div>    
    </header>
+   <div class="flexbox">
+      <div class="col harpcol1" >
+      </div>       
+        <div class="col harpcol2 harpnav">
+          <ul class="flexbox">        
+            <li class="col"><a href="lapharps.htm">Lap Harps</a></li>
+            <li class="col"><a href="floorharps.htm">Floor Harps</a></li>        
+          </ul>
+        </div>
+      <div class="col harpcol3">          
+      </div>
+    </div>
     <div class="mainflexbox">
     <div class="maincol1">
     </div>
-    <section class="maincol2 start harp">
+    <section id="main" role="main" class="maincol2 start harp">
             <div class="col video"><h1 >OUR HARPS</h1>
-                    <video width="370" height="208" controls>
+              <h2>Product demonstration</h2> 
+                  <video width="370" height="208" controls>
                     <source src="harp.ogv" type="video/ogg">
                     <source src="harp.mp4" type="video/mp4">
                     <p>Your browser cannot view this content: 
-                          <a href="harp.ogv">Download the video here</a></p>
-                    </video>
-              <h2>Product demonstration</h2> 
+                      <a href="harp.ogv">Download the video here</a>
+                    </p>
+                  </video>            
             </div>
             <div class="flexbox"> 
-              <div class="col"><a href="floorharps.htm">
-                <img src="images/small_harp4.jpg" width="300" height="200"  alt="floor harp" />
+              <div class="col">
+                <a href="floorharps.htm">
                 <h2>Floor Harps</h2></a>
+                <img src="images/small_harp4.jpg" width="300" height="200" alt="floor harp" />                
               </div>
-              <div class="col"><a href="lapharps.htm">
-                <img src="images/harp_flowers2.jpg" width="300" height="200"  alt="lap harp"  />
+              <div class="col">
+                <a href="lapharps.htm">
                 <h2>Lap Harps</h2>
+                <img src="images/harp_flowers2.jpg" width="300" height="200"  alt="lap harp" />                
                 </a>
               </div> 
             </div>
@@ -77,7 +88,7 @@
         <li><a href="order.htm">How To Order</a></li>
         <li><a href="harps.htm">Our Harps</a></li>
         <li><a href="resources.htm">Learning Resources</a></li>
-        <li><a href="reviews.htm">Customer Reviews</a
+        <li><a href="reviews.htm">Customer Reviews</a></li>
       </ul>
     </div>
     <div class="footcol2 copyright">

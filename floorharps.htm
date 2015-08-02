@@ -10,15 +10,11 @@
   <title>Blevins Harps | Floor Harps</title>
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-  <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/style.css" /> 
-  <!--  Link to jQuery  -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <!-- fotorama.js. -->   
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>  
+  <link rel="stylesheet" type="text/css" href="css/normalize.min.css" /> 
+  <link rel="stylesheet" type="text/css" href="css/style.css" />     
 </head>
 <body>
+  <a id="skip" href="#main">Skip to Content</a>
   <header class="flexbox">
     <div class="headcol1">
     <a href="index.htm"><img src="images/logo.gif" width="178" height="100" alt="Blevins Harps Logo" /></a>
@@ -29,7 +25,7 @@
         <li class="navcol navflexbox"><a href="about.htm">About</a></li>
         <li class="navcol navflexbox"><a href="contact.htm">Contact</a></li>
         <li class="navcol navflexbox"><a href="order.htm">How To Order</a></li>
-        <li class="navcol navflexbox"><a id="harps"href="harps.htm">Our Harps</a></li>
+        <li class="navcol navflexbox"><a id="harps" href="harps.htm">Our Harps</a></li>
         <li class="navcol navflexbox"><a href="resources.htm">Learning Resources</a></li>
         <li class="navcol navflexbox"><a href="reviews.htm">Customer Reviews</a></li>        
       </ul>
@@ -39,10 +35,22 @@
       <a href="contact.htm" class="button">Contact Us</a>      
     </div>
    </header>
+   <div class="flexbox">
+      <div class="harpcol1" >
+      </div>       
+        <div class="harpcol2 harpnav">
+          <ul class="flexbox">        
+            <li class="col"><a href="lapharps.htm">Lap Harps</a></li>
+            <li class="col"><a id="floorharps" href="floorharps.htm">Floor Harps</a></li>        
+          </ul>
+        </div>
+      <div class="harpcol3">          
+      </div>
+    </div>
     <div class="mainflexbox">
       <div class="maincol1">
       </div>
-    <section class="maincol2 start floorharp">
+    <section id="main" role="main" class="maincol2 start harp floorharp">
       <h1>FLOOR HARPS</h1>
       <div class="flexbox"> 
               <div class="col">
@@ -90,7 +98,7 @@
         <li><a href="order.htm">How To Order</a></li>
         <li><a href="harps.htm">Our Harps</a></li>
         <li><a href="resources.htm">Learning Resources</a></li>
-        <li><a href="reviews.htm">Customer Reviews</a
+        <li><a href="reviews.htm">Customer Reviews</a></li>
       </ul>
     </div>
     <div class="footcol2 copyright">
@@ -100,6 +108,7 @@
     </div>
     <div class="footcol3">
       <p>Questions or Comments?<br />Send an email to <a href="mailto:blevins@harps.com">blevins@harps.com</a></p>      
-    </div>   
+    </div>
+  </footer>   
 </body>
 </html>
