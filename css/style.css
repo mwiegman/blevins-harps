@@ -51,7 +51,7 @@ header {
     background-color: #B5B09A;
     text-align: center;
     box-shadow: 0px -10px 10px -10px black;
-    margin: 20px 0 40px 0;
+    margin-bottom: 20px;
     padding-top: 10px;
 }
 
@@ -180,13 +180,14 @@ Primary content styling
 **********************/
 
 main {
-    background-color: #829690;
-    margin: 40px 10px;    
+    background-color: #E1E3CB;
+    margin: 0 10px 20px 10px; 
+
 }
 
 section {
     background-color: #829690;
-    margin: 0 20px 40px 20px;
+    margin: 0 10px 20px 10px;
     padding: 20px;
     box-shadow: 0px 4px 20px -2px black;
 }
@@ -194,6 +195,8 @@ section {
 .welcome {
     padding: 20px;
     height: 100%;
+    background-color: #829690; 
+    box-shadow: 0px 4px 20px -2px black;
 }
 
 .welcome h3 {
@@ -213,6 +216,10 @@ main p {
 .confirm {
     text-align: center;  
     padding: 20px;  
+}
+
+.review {
+    margin-bottom: 40px;
 }
 
 .resources {
@@ -325,8 +332,13 @@ form:after {
 input {
     width: 50%;
 }
+
 textarea {
     width: 100%;
+}
+
+#newsletter {
+    width: 5%;
 }
 
 input,
@@ -411,10 +423,11 @@ Button styling
     padding: 5px;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 1.5rem;
+    text-transform: uppercase;
 }
 
 .back {
-    width: 15%;
+    width: 30%;
 }
 
 form .button {
@@ -495,7 +508,7 @@ Flexbox
     .harpcol2 {
         -webkit-flex: 3;
         -ms-flex: 3;
-        flex: 3;
+        flex: 2;
         -webkit-order: 2;
         -ms-flex-order: 2;
         order: 2;
@@ -524,7 +537,9 @@ Flexbox
         -ms-flex: 2;
         flex: 2;
     }
-    .footcol1 {
+    .footcol1,
+    .footcol3,
+    .vertical {
         -webkit-flex: 1;
         -ms-flex: 1;
         flex: 1;
@@ -539,21 +554,7 @@ Flexbox
         -webkit-align-self: flex-end;
         -ms-flex-item-align: end;
         align-self: flex-end;
-    }
-    .footcol3,
-    .vertical {
-        -webkit-align-self: center;
-        -ms-flex-item-align: center;
-        align-self: center;
-        -webkit-flex: 1;
-        -ms-flex: 1;
-        flex: 1;
-    }
-    .start {
-        -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-        flex-direction: column;
-    }
+    }    
 }
 
 @media (min-width: 800px) and (max-width: 1023px) {
@@ -647,7 +648,8 @@ Flexbox
         -ms-flex-order: 3;
         order: 3;
     }
-    .footcol1 {
+    .footcol1,
+    .footcol3 {
         -webkit-flex: 1;
         -ms-flex: 1;
         flex: 1;
@@ -662,14 +664,10 @@ Flexbox
         -webkit-align-self: flex-end;
         -ms-flex-item-align: end;
         align-self: flex-end;
-    }
-    .footcol3 {
-        -webkit-flex: 1;
-        -ms-flex: 1;
-        flex: 1;
-        -webkit-align-self: center;
-        -ms-flex-item-align: center;
-        align-self: center;
+    }    
+
+    .maincol2 {
+        width: 100%;
     }
 }
 
