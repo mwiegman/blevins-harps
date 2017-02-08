@@ -2,7 +2,7 @@
 Google font
 **********************/
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url('https://fonts.googleapis.com/css?family=Lora|Open+Sans+Condensed:300');
 * {
     box-sizing: border-box;
     margin: 0;
@@ -15,11 +15,10 @@ Body styling
 **********************/
 
 body {
-    font-family: Georgia, serif;
+    font-family: 'Lora', serif;
     font-size: 1.125rem;
     line-height: 1.5;
-    background-color: #E1E3CB;
-    margin: 0 20px 20px 20px;
+    background-color: #E1E3CB;    
 }
 
 h1,
@@ -39,10 +38,6 @@ img {
     margin: 0 auto;
 }
 
-#skip {
-     font-size: 0.75em;
-     margin: 0;
-}
 /********************* 
 Header styling
 **********************/
@@ -95,6 +90,7 @@ nav a,
     display: inline-block;
     background-color: #59574B;
     padding: 10px 5px 5px 5px;
+    border-radius: 8px 8px 0 0;
 }
 
 nav li a:hover,
@@ -190,13 +186,14 @@ section {
     margin: 0 10px 20px 10px;
     padding: 20px;
     box-shadow: 0px 4px 20px -2px black;
+    border-radius: 8px;
 }
 
 .welcome {
     padding: 20px;
-    height: 100%;
     background-color: #829690; 
     box-shadow: 0px 4px 20px -2px black;
+    border-radius: 8px;
 }
 
 .welcome h3 {
@@ -267,7 +264,11 @@ Photo Gallery styling
 
 .fotorama__wrap {
     margin: 0 auto;
-    padding: 40px;
+    padding: 40px;    
+}
+
+.fotorama__stage {
+    border-radius: 8px;
 }
 
 
@@ -415,14 +416,14 @@ Button styling
     color: #E1E3CB;
     background-color: #47191C;
     border: 1px solid #47191C;
-    border-radius: 10px;
+    border-radius: 8px;
     display: inline-block;
     text-align: center;
-    width: 40%;
+    //width: 40%;
     margin: 20px auto;
     padding: 5px;
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 1.5rem;
+    //font-size: 1.5rem;
     text-transform: uppercase;
 }
 
